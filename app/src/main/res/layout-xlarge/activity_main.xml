@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.scorepad.MainActivity"
+    android:background="@drawable/b"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text="Team A"
+                    android:textSize="26sp"
+                    android:textAlignment="center"
+                    android:textColor="#212121"/>
+
+                <TextView
+                    android:id="@+id/score_team_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:text="0"
+                    android:textSize="52sp"
+                    android:textAlignment="center"
+                    android:textColor="#212121"
+                    android:gravity="center"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="7"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:text="+2"
+                        android:textAlignment="center"
+                        android:textColor="#212121"
+                        android:textSize="52sp"
+                        android:onClick="a2"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:text="+3"
+                        android:textAlignment="center"
+                        android:textSize="52sp"
+                        android:textColor="#212121"
+                        android:gravity="center"
+                        android:onClick="a3"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:textSize="36sp"
+                    android:text="FREE THROW!!"
+                    android:textColor="#212121"
+                    android:textAlignment="center"
+                    android:onClick="aft"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text="Team B"
+                    android:textSize="26sp"
+                    android:textAlignment="center"
+                    android:textColor="#212121"/>
+
+                <TextView
+                    android:id="@+id/score_team_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:text="0"
+                    android:textSize="52sp"
+                    android:gravity="center"
+                    android:textColor="#212121"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="7"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:text="+3"
+                        android:textAlignment="center"
+                        android:textColor="#212121"
+                        android:textSize="52sp"
+                        android:gravity="center"
+                        android:onClick="b3"
+                        />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:text="+2"
+                        android:textAlignment="center"
+                        android:textSize="52sp"
+                        android:gravity="center"
+                        android:textColor="#212121"
+                        android:onClick="b2"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:textSize="36sp"
+                    android:text="FREE THROW!!"
+                    android:textColor="#212121"
+                    android:textAlignment="center"
+                    android:onClick="bft"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
