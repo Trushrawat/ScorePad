@@ -2,6 +2,7 @@ package com.example.android.scorepad;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.TextureView;
 import android.view.View;
 import android.widget.TextView;
 
@@ -59,4 +60,6 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreBoardB = (TextView) findViewById(R.id.score_team_b);
         scoreBoardB.setText("" +  number);
     }
+
+
 }
