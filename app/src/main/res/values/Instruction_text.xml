@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Instructions">
+
+ >Tilt into Landscape or Tap the Logo to Start \n\n
+ >Tap on the area from where the player shot.\n\n
+ >Tilt back to Reset."
+    </string>
+</resources>
